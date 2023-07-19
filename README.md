@@ -40,3 +40,13 @@ $str = $hl->highlightKeywords($title, $keywords);
 
 echo $str;
 ```
+
+```html
+<style>
+.hl {
+    color: black;
+    background-color: yellow;
+    font-weight: bold;
+}
+</style>
+```
