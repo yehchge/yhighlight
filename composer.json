@@ -1,0 +1,23 @@
+{
+    "name": "yehchge/yhighlight",
+    "description": "highlight keywords",
+    "type": "library",
+    "license":"MIT",
+    "minimum-stability": "stable",
+    "require-dev": {
+    },
+    "require": {
+        "php":">=5.3.0"
+    },
+    "suggest": {
+        "ext-mbstring": "Required for UTF-8 string support"
+    },
+    "archive": {
+        "exclude": ["*.sh", "tests/", "README.md", ".gitignore", "*.zip", "*.xml"]
+    },
+    "autoload": {
+        "psr-4": {
+           "yehchge\\yhighlight\\": "src/"
+       }
+    }
+}
