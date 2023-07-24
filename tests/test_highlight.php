@@ -59,6 +59,9 @@ $aKeywords[] = array("大谷翔平", "翔平", "谷翔");
 $aTitle[] = "吃葡萄不吐葡萄皮，不吃葡萄倒吐葡萄皮";
 $aKeywords[] = array("葡萄");
 
+$aTitle[] = "吃葡萄不吐葡萄皮，不吃葡萄倒吐葡萄皮";
+$aKeywords[] = array("葡萄", "葡萄皮");
+
 $aTitle[] = "超人氣小雞幸福大書包";
 $aKeywords[] = array("小雞", "人氣", "超人", "超人氣");
 
@@ -67,6 +70,7 @@ $aKeywords[] = array("羊奶","過敏","奶粉");
 
 $aTitle[] = "Do you know any funny jokes";
 $aKeywords[] = array('funny', 'fun', 'joke');
+
 
 foreach($aTitle as $key => $title){
     $keywords = $aKeywords[$key];

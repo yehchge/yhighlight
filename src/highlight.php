@@ -142,9 +142,10 @@ class highlight {
         $this->debug = $bug;
     }
 
-    private function cus_sort($array, $id = "", $sort_ascending = true)
+    private function cus_sort($array, $id = '', $sort_ascending = true)
     {
-        if ($id == "") return $array;
+        if ($id === '' || strlen(trim((string)$id)) == 0) return $array;
+        // if ($id == '') return $array; // Error for PHP 7.4
 
         $temp_array = array();
         $count = count($array);
